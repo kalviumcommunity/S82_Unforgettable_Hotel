@@ -2,10 +2,18 @@
   "name": "asap",
   "version": "1.0.0",
   "description": "This web platform designed to help traveler to find a unique ,funniest,weirdest hotels they have ever experience like this.it is a platform where the traveler can discover places like underwater hotels, treehouse resorts, ice hotels, and rooms designed in outrageous styles. With interactive maps, detailed descriptions, user reviews, and booking options, this app aims to inspire travelers to break the travel experiences very unique and explore the weirdest places on Earth for unforgettable experiences.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
 }
