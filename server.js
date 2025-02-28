@@ -7,7 +7,7 @@ const PORT = 5555;
 
 app.use(express.json());
 
-mongoose.connect(mongodb://localhost:27017)
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('Connected to Database'))
   .catch(console.error);
 
@@ -41,4 +41,4 @@ app.get('/objects', async (req, res) => {
 
 app.get('/ping', (req, res) => res.send('hello world'));
 
-app.listen(PORT, () => console.log(Server running on port ${PORT}));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
