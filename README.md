@@ -16,4 +16,4 @@ Frontend: React.js with Next.js (for SEO and performance), Tailwind CSS for mode
 
 This project is an exciting challenge that blends fun, creativity, and technical skills. It allows me to work on creating an interactive and visually appealing platform that showcases eccentric accommodations while providing a practical service to travelers. By working on this project, I will:
 
-Enhance UI/UX Skills: Creating a fun and interactive interface that encourages exploration and sharing. Build a Full-Stack Web App: Gain experience in both frontend and backend development. Implement AI-driven Features: Develop personalized recommendation systems based on user preferences. Experiment with APIs: Work with APIs for maps, booking, and data integration to enhance functionality.
+Enhance UI/UX Skills: Creating a fun and interactive interface that encourages exploration and sharing. Build a Full-Stack Web App: Gain experience in both frontend and backend development. Implement AI-driven Features: Develop personalized recommendation systems based on user preferences. Experiment with APIs: Work with APIs for maps, booking, and data integration to enhance functionality...
